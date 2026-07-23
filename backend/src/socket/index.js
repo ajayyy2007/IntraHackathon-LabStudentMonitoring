@@ -7,14 +7,14 @@ function initializeSocket(io) {
 
     io.on("connection", (socket) => {
 
-    console.log(`⚡ ${socket.id} Connected`);
+        console.log(`⚡ ${socket.id} Connected`);
 
-    registerStudentSocket(io, socket);
-    registerFacultySocket(io, socket);
-    registerTelemetrySocket(io, socket);
-    registerCommandSocket(io, socket);
+        registerStudentSocket(io, socket);
+        registerFacultySocket(io, socket);
+        registerTelemetrySocket(io, socket);
+        registerCommandSocket(io, socket);
 
-});
+    });
 
 }
 

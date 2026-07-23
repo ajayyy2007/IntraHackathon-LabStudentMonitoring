@@ -3,9 +3,9 @@ const express = require("express");
 const router = express.Router();
 
 const {
-    analytics
+    getDashboardAnalytics
 } = require("../controllers/analyticsController");
 
-router.get("/", analytics);
+router.get("/", getDashboardAnalytics);
 
 module.exports = router;
