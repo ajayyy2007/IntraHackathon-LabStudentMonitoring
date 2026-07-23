@@ -141,3 +141,15 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+student-agent/venv/
+student-agent/.venv/
+student-agent/.venv-1/
+student-agent/latest.jpg
+venv/
+.venv/
+.venv-1/
+__pycache__/
+*.pyc
+# OS
+.DS_Store
+Thumbs.db
